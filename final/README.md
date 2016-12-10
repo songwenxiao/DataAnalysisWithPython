@@ -1,8 +1,10 @@
 # Wenxiao Song final project
 
+## Introduction
+
 This final project contains five analysis. The first two analysis are trying to check that whether the supporting rate of Democrat and Republican has something to do with poverty rate or unemployment rate. The third one is trying to show that the median household income of all the state in the US. The last two analysis are trying to show some information about the certain state.
 
-## Introduction
+## Data Source description
 
 The data source contains in 15 csv files. [Link to the data source](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/data). 
 The first, forth and fifth analysis are based on [xaa.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xaa.csv), [xab.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xab.csv), [xac.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xac.csv) and [xad.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xad.csv). 
@@ -22,6 +24,12 @@ The [Unemployment.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blo
 The sample data of [Unemployment.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/Unemployment.csv) are shown below:
 
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.17.38%20PM.png)
+
+The [est05All.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/est05ALL.csv) to [est14All.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/est14ALL.csv) contains information like state, county, median househould income.
+
+The sample data of [est05All.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/est05ALL.csv) are shown below:
+
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.28.23%20PM.png) ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.28.15%20PM.png)
 
 
 
