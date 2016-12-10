@@ -45,7 +45,11 @@ Description: This analysis is trying to check whether their is a direct relation
 
 To do this analysis, run: 
 
-    build/python Analysis01.py Hillary 
+    python Analysis01.py Hillary 
+    
+The out put would be shown as below:
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Analysis01_img01.png)
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Analysis01_img02.png)
 
 Spark is built using [Apache Maven](http://maven.apache.org/).
 To build Spark and its example programs, run:
