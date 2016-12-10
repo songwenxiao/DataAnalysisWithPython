@@ -43,7 +43,9 @@ Output: Two bar plot. The first one shows the supporting rate of input candiate 
 
 Description: This analysis is trying to check whether their is a direct relation between the candiate supporting rate and the state 			poverty rate.
 
-Commend Line: python Analysis01.py Hillary 
+To do this analysis, run: 
+
+    build/python Analysis01.py Hillary 
 
 Spark is built using [Apache Maven](http://maven.apache.org/).
 To build Spark and its example programs, run:
