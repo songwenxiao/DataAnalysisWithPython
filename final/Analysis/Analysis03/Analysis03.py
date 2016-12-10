@@ -32,7 +32,7 @@ grouped_by_state2['Democrats.Rate.12'] = pd.Series(grouped_by_state2['Democrats 
 grouped_by_state2['Democrats.Rate.08'] = pd.Series(grouped_by_state2['Democrats 08']/grouped_by_state2['Total 08'], index=grouped_by_state2.index)
 grouped_by_state2['Republican.Rate.08'] = pd.Series(grouped_by_state2['Republicans 08']/grouped_by_state2['Total 08'], index=grouped_by_state2.index)
 
-unemployment_us = pd.read_csv('/Users/wenxiaosong/Downloads/Unemployment.csv',error_bad_lines=False,sep=',')
+unemployment_us = pd.read_csv('../../data/Unemployment.csv',error_bad_lines=False,sep=',')
 
 unemployment_us1 = unemployment_us[['State','Unemployment_rate_2007','Unemployment_rate_2008','Unemployment_rate_2009','Unemployment_rate_2010','Unemployment_rate_2011','Unemployment_rate_2012','Unemployment_rate_2013','Unemployment_rate_2014','Unemployment_rate_2015']]
 

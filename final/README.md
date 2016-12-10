@@ -1,20 +1,10 @@
-# Apache Spark
+# Wenxiao Song final project
 
-Spark is a fast and general cluster computing system for Big Data. It provides
-high-level APIs in Scala, Java, Python, and R, and an optimized engine that
-supports general computation graphs for data analysis. It also supports a
-rich set of higher-level tools including Spark SQL for SQL and DataFrames,
-MLlib for machine learning, GraphX for graph processing,
-and Spark Streaming for stream processing.
+This final project contains five analysis. The first two analysis are trying to check that whether the supporting rate of Democrat and Republican has something to do with poverty rate or unemployment rate. The third one is trying to show that the median household income of all the state in the US. The last two analysis are trying to show some information about the certain state.
 
-<http://spark.apache.org/>
+## Introduction
 
-
-## Online Documentation
-
-You can find the latest Spark documentation, including a programming
-guide, on the [project web page](http://spark.apache.org/documentation.html).
-This README file only contains basic setup instructions.
+The data source contains in 14 csv files. [Link to the data source](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/data)
 
 ## Building Spark
 
