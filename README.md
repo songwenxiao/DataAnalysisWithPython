@@ -22,7 +22,7 @@ Analysis4: Send request to get all questions posted on 10/29/2016, caculate the 
 Analysis5: Open the json file that stored in Analysis1, using owner's id to find out their favorite questions, find out the top 10 score questions among these  questions.
 
 Final Project:
-Analysis01: \n
+Analysis01: 
 Input: 	Candidate Last Name(Trump or Hillary)
 Output: Two bar plot. The first one shows the supporting rate of input candiate for all the state in the US, in descending order. The 			second bar plot shows that the poverty rate of state. The state order is the same as the first one.
 Description: This analysis is trying to check whether their is a direct relation between the candiate supporting rate and the state 			poverty rate.
