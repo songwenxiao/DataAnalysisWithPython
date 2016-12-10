@@ -5,7 +5,14 @@ This final project contains five analysis. The first two analysis are trying to 
 ## Introduction
 
 The data source contains in 15 csv files. [Link to the data source](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/data). 
-The first, forth and fifth analysis are based on [xaa.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xaa.csv), [xab.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xab.csv), [xac.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xac.csv) and [xad.csv](hhttps://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xad.csv). 
+The first, forth and fifth analysis are based on [xaa.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xaa.csv), [xab.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xab.csv), [xac.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xac.csv) and [xad.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xad.csv). 
+The second analysis are based on all the csv file.
+The third analysis are based on [xaa.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xaa.csv), [xab.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xab.csv), [xac.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xac.csv), [xad.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xad.csv) and [Unemployment.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/Unemployment.csv)
+
+The [xaa.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xaa.csv), [xab.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xab.csv), [xac.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xac.csv) and [xad.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xad.csv) are splited from one data file [usa-2016-presidential-election-by-county.csv](https://public.opendatasoft.com/explore/dataset/usa-2016-presidential-election-by-county/table/). They have the same columns.
+The columns of these files are covered from state, county, votes, race ratio, poverty rate, business structure to age distriubtion. 
+The sample of the data are shown below:
+![alt tag]()
 
 ## Building Spark
 
