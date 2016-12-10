@@ -31,7 +31,7 @@ The sample data of [est05All.csv](https://github.com/songwenxiao/DataAnalysisWit
 
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.38.04%20PM.png) ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.38.19%20PM.png)
 
-Since all five analysis covers so many columns and they are so different from each other, I decide to put the collected data process into seperate analysis file. I will explain later in each analysis. 
+###Since all five analysis covers so many columns and they are so different from each other, I decide to put the collected data process into seperate analysis file. I will explain later in each analysis. 
 
 
 
