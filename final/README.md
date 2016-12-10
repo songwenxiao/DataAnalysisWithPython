@@ -12,7 +12,7 @@ The third analysis are based on [xaa.csv](https://github.com/songwenxiao/DataAna
 The [xaa.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xaa.csv), [xab.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xab.csv), [xac.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xac.csv) and [xad.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/xad.csv) are splited from one data file [usa-2016-presidential-election-by-county.csv](https://public.opendatasoft.com/explore/dataset/usa-2016-presidential-election-by-county/table/). They have the same columns.
 The columns of these files are covered from state, county, votes, race ratio, poverty rate, business structure to age distriubtion. 
 The sample of the data are shown below:
-![alt tag]()
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.03.12%20PM.png)
 
 ## Building Spark
 
