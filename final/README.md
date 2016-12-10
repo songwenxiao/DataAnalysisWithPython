@@ -35,7 +35,15 @@ The sample data of [est05All.csv](https://github.com/songwenxiao/DataAnalysisWit
 
 
 
-## Building Spark
+## Analysis01
+
+Input: 	Candidate Last Name(Trump or Hillary)
+
+Output: Two bar plot. The first one shows the supporting rate of input candiate for all the state in the US, in descending order. The 			second bar plot shows that the poverty rate of state. The state order is the same as the first one.
+
+Description: This analysis is trying to check whether their is a direct relation between the candiate supporting rate and the state 			poverty rate.
+
+Commend Line: python Analysis01.py Hillary 
 
 Spark is built using [Apache Maven](http://maven.apache.org/).
 To build Spark and its example programs, run:
