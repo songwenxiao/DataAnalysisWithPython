@@ -29,7 +29,7 @@ The [est05All.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/ma
 
 The sample data of [est05All.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/est05ALL.csv) are shown below:
 
-![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.28.23%20PM.png) ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.28.15%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.38.04%20PM.png) ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.38.19%20PM.png)
 
 
 
