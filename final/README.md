@@ -19,7 +19,7 @@ The sample data are shown below:
 
 The [Unemployment.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/Unemployment.csv) contains some useful informations like state, unemployment rate from 2007 to 2015. 
 
-The sample data of Unemployment.csv(https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/Unemployment.csv) are shown below:
+The sample data of [Unemployment.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/Unemployment.csv) are shown below:
 
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.17.38%20PM.png)
 
