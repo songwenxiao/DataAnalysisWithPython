@@ -13,6 +13,8 @@ The [xaa.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/
 The columns of these files are covered from state, county, votes, race ratio, poverty rate, business structure to age distriubtion. 
 The sample of the data are shown below:
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.03.12%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.03.41%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%202.04.12%20PM.png)
 
 ## Building Spark
 
