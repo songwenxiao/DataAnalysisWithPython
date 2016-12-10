@@ -56,7 +56,7 @@ Conclution: From plots above, there is no direct relation between the candiate s
 ###Deep into the code:
 
 The first part of code as shown below, read the data and concat them together to make a new dataframe.
-![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.21.32%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.44.15%20PM.png)
 
 This code shown below collected the useful data from the original one.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.22.35%20PM.png)
