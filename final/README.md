@@ -34,7 +34,6 @@ The sample data of [est05All.csv](https://github.com/songwenxiao/DataAnalysisWit
 ###Since all five analysis covers so many columns and they are so different from each other, I decide to put the collected data process into seperate analysis file. I will explain later in each analysis. 
 
 
-
 ## [Analysis01](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/Analysis/Analysis01)
 
 Input: 	Candidate Last Name(Trump or Hillary)
@@ -71,3 +70,46 @@ This code shown below generate a new columns which represent the supporting rate
 
 The rest of the code generates the two bar plot using seaborn.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.41.08%20PM.png)
+
+
+## [Analysis02](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/Analysis/Analysis02)
+
+Input: 	State name for short
+
+Output: Two pie plot. The first one shows the distribution of the education degree demography rate of the input state.
+		The second one shows the racial demography distribution of the input state.
+        
+Description: This Analysis is trying to show you this two demography information of the certain state.
+
+To do this analysis, run: 
+
+
+    python Analysis02.py CA 
+
+The out put would be shown as below:
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis02/Analysis02_img01.png)
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis02/Analysis02_img02.png)
+    
+Conclution: From plots above, it will show you the demography information and education situation of certain state.
+
+###Deep into the code:
+
+The first part of code as shown below, read the data and concat them together to make a new dataframe.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.49.41%20PM.png)
+
+This code shown below collected the useful data from the original one. And then generate two new columns to represent the population of people less than high school diploma and people at least bachelor degree.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.50.16%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.51.26%20PM.png)
+
+This code shown below sum up the data by state and use the total population and population less than high school diploma and population at least bachelor degree to calculation the population for high school diploma.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.30.33%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.30.48%20PM.png)
+
+This code shown below generate a new columns which represent the supporting rate for input candidate and another columns which represent the state poverty rate. Then we sorted this result in descending order by the supporting rate.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.54.03%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.54.14%20PM.png)
+
+The rest of the code generates the two bar plot using seaborn.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.00.22%20PM.png)
+
+The racial distribution code actually is using the same approach.
