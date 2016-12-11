@@ -38,7 +38,7 @@ The sample data of [est05All.csv](https://github.com/songwenxiao/DataAnalysisWit
 
 Input: 	Candidate Last Name(Trump or Hillary)
 
-Output: Two bar plot. The first one shows the supporting rate of input candiate for all the state in the US, in descending order. The 		second bar plot shows that the poverty rate of state. The state order is the same as the first one.
+Output: Two bar plot. One csv file. The first one shows the supporting rate of input candiate for all the state in the US, in descending order. The second bar plot shows that the poverty rate of state. The state order is the same as the first one. [Analysis01_result01](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis01/Analysis01_result01)
 
 Description: This analysis is trying to check whether their is a direct relation between the candiate supporting rate and the state 			poverty rate.
 
@@ -76,8 +76,8 @@ The rest of the code generates the two bar plot using seaborn and result csv.
 
 Input: 	State name for short
 
-Output: Two pie plot. The first one shows the distribution of the education degree demography rate of the input state.
-	The second one shows the racial demography distribution of the input state.
+Output: Two pie plot. Two csv file. The first one shows the distribution of the education degree demography rate of the input state.
+	The second one shows the racial demography distribution of the input state. [Analysis02_result01](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis02/Analysis02_result01), [Analysis02_result02](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis02/Analysis02_result02)
         
 Description: This Analysis is trying to show you this two demography information of the certain state.
 
