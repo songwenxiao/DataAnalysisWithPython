@@ -68,7 +68,7 @@ This code shown below generate a new columns which represent the supporting rate
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.38.09%20PM.png)
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.40.46%20PM.png)
 
-The rest of the code generates the two bar plot using seaborn.
+The rest of the code generates the two bar plot using seaborn and result csv.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.41.08%20PM.png)
 
 
@@ -162,7 +162,7 @@ This code shown below generate new dataframe based on unemployment rate from 07 
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.20.45%20PM.png)
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.21.24%20PM.png)
 
-The rest of the code generates the two plot using seaborn.
+The rest of the code generates the two plot using seaborn and the result csv.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.26.02%20PM.png)
 
 
@@ -179,7 +179,7 @@ note: This analysis concat a few data source and make a new dataframe object
 To do this analysis, run: 
 
 
-    python Analysis03.py CA 
+    python Analysis04.py 2013
 
 The out put would be shown as below:
     ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis04/Analysis04_img01.png)
@@ -202,5 +202,40 @@ This code shown below aggregate the data by state calculate the average househol
 This code shown below get the median household income of the entire USA
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.44.58%20PM.png)
 
-The rest of the code generates the bar plot using seaborn.
+The rest of the code generates the bar plot using seaborn and the result csv.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.47.48%20PM.png)
+
+
+## [Analysis05](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/Analysis/Analysis05)
+
+Input: 	State name for short
+
+Output: One state map. The map show you the unemployment rate of every county in this state.
+        
+Description: This Analysis is trying to show you the unemployment condition in certain state.
+
+###note: This analysis use data visualization api bokeh
+
+To do this analysis, run: 
+
+
+    python Analysis05.py CA
+
+The out put would be shown as below:
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%208.04.51%20PM.png)
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%208.05.13%20PM.png)
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%208.05.27%20PM.png)
+
+###Deep into the code:
+
+This code shown below import the bokeh api and import the counties data from bokeh.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%208.07.43%20PM.png)
+
+This part of code as shown below, read the data and concat them together to make a new dataframe.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%208.13.30%20PM.png)
+
+This code shown below is trying to match the unemployment rate with the position data from the bokeh according to the county.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%208.14.12%20PM.png)
+
+The rest of the code generates the bar plot using seaborn.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%208.16.45%20PM.png)
