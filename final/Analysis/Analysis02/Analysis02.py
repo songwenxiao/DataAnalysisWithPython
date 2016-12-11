@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib as mpl
 from matplotlib import pyplot as plt
 import argparse
+import csv
 #%matplotlib inline
 us_election1 = pd.read_csv('../../data/xaa.csv',error_bad_lines=False,sep=';')
 us_election2 = pd.read_csv('../../data/xab.csv',error_bad_lines=False,sep=';')
@@ -34,6 +35,7 @@ args = parser.parse_args()
 state = grouped_by_state.index == args.st
 ceratin_state = grouped_by_state[state].iat[0,0]
 
+
 # Data to plot
 labels = 'At Least Bachelor Degree', 'High School Diploma', 'Less than High School'
 sizes = [grouped_by_state[state].iat[0,4], grouped_by_state[state].iat[0,5], grouped_by_state[state].iat[0,6]]
@@ -49,6 +51,7 @@ plt.title(args.st + "'s education distribution pie plot")
 plt.savefig("Analysis02_img01.png")
 plt.show()
 plt.close()
+grouped_by_state[state].to_csv('Analysis02_result01', sep='\t', encoding='utf-8')
 
 race_df = us_election[['State','ST','Total.Population','White.not.Latino.Population','African.American.Population','Native.American.Population','Asian.American.Population','Latino.Population']]
 race_df['White.not.Latino'] = pd.Series(race_df['White.not.Latino.Population']*race_df['Total.Population']/100, index=race_df.index)
@@ -79,3 +82,4 @@ plt.axis('equal')
 plt.title(args.st + "'s racial distribution pie plot")
 plt.savefig("Analysis02_img02.png")
 plt.show()
+grouped_by_state_race[state].to_csv('Analysis02_result02', sep='\t', encoding='utf-8')
