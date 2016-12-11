@@ -162,5 +162,45 @@ This code shown below generate new dataframe based on unemployment rate from 07 
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.20.45%20PM.png)
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.21.24%20PM.png)
 
-The rest of the code generates the two bar plot using seaborn.
+The rest of the code generates the two plot using seaborn.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.26.02%20PM.png)
+
+
+## [Analysis04](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/Analysis/Analysis03)
+
+Input: 	One year number from 2005 to 2014
+
+Output: One bar plot. The output bar plot shows the median household income for all state in US in the certain year. And shows the US 		average household income as a threshold line.
+        
+Description: This Analysis is trying to show you the income condition for all the state in US, and tell you which one is lower than the 		US line and which one is higher.
+
+note: This analysis concat a few data source and make a new dataframe object
+
+To do this analysis, run: 
+
+
+    python Analysis03.py CA 
+
+The out put would be shown as below:
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis04/Analysis04_img01.png)
+    
+Conclution: From plots above, you can see which state is rich and which one is not. It shows the US average level.
+
+###Deep into the code:
+
+The first part of code as shown below, read the data and concat them together to make a new dataframe.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.32.20%20PM.png)
+
+This code shown below collected the useful data from the original one. And then generate one new columns to represent the year.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.37.52%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.38.46%20PM.png)
+
+This code shown below aggregate the data by state calculate the average household income of each state, then merge them into one dataframe
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.43.16%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.43.36%20PM.png)
+
+This code shown below get the median household income of the entire USA
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.44.58%20PM.png)
+
+The rest of the code generates the bar plot using seaborn.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.47.48%20PM.png)
