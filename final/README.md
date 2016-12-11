@@ -38,7 +38,7 @@ The sample data of [est05All.csv](https://github.com/songwenxiao/DataAnalysisWit
 
 Input: 	Candidate Last Name(Trump or Hillary)
 
-Output: Two bar plot. The first one shows the supporting rate of input candiate for all the state in the US, in descending order. The 			second bar plot shows that the poverty rate of state. The state order is the same as the first one.
+Output: Two bar plot. The first one shows the supporting rate of input candiate for all the state in the US, in descending order. The 		second bar plot shows that the poverty rate of state. The state order is the same as the first one.
 
 Description: This analysis is trying to check whether their is a direct relation between the candiate supporting rate and the state 			poverty rate.
 
@@ -77,7 +77,7 @@ The rest of the code generates the two bar plot using seaborn.
 Input: 	State name for short
 
 Output: Two pie plot. The first one shows the distribution of the education degree demography rate of the input state.
-		The second one shows the racial demography distribution of the input state.
+	The second one shows the racial demography distribution of the input state.
         
 Description: This Analysis is trying to show you this two demography information of the certain state.
 
@@ -113,3 +113,54 @@ The rest of the code generates the two bar plot using seaborn.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.00.22%20PM.png)
 
 The racial distribution code actually is using the same approach.
+
+
+## [Analysis03](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/Analysis/Analysis03)
+
+Input: 	State name for short
+
+Output: One bar plot and one line plot. The bar plot shows the unemployment rate of the input state from 2007 to 2016.
+	The line plot shows the supporting rate of two partys during the last three elections of the input state.
+        
+Description: This Analysis is trying to check whether their is a direct relation between the unemployment rate and the supporting rate 			of this two party.
+
+note: This analysis merges two data source and make a new dataframe object
+
+To do this analysis, run: 
+
+
+    python Analysis03.py CA 
+
+The out put would be shown as below:
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis03/Analysis03_img01.png)
+    ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis03/Analysis03_img02.png)
+    
+Conclution: From plots above, there is no direct relation between the candiate supporting rate and the state unemployment rate.
+
+###Deep into the code:
+
+The first part of code as shown below, read the data and concat them together to make a new dataframe.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.49.41%20PM.png)
+
+This code shown below collected the useful data from the original one. And then generate one new columns to represent the population of people of unemployment.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.50.16%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%206.51.26%20PM.png)
+
+This code shown below sum up the data by state and use the total population and unemployment population calculate the unemployment rate 2016 for each state.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.09.21%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.10.27%20PM.png)
+
+This code shown below generate a new columns which represent the supporting rate for input candidate and another columns which represent the state poverty rate. Then we sorted this result in descending order by the supporting rate.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.13.25%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.15.29%20PM.png)
+
+This code shown below read the data from [Unemployment.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/Unemployment.csv) and merge it with the pre-existing aggregate dataframe by state.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.18.34%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.18.52%20PM.png)
+
+This code shown below generate new dataframe based on unemployment rate from 07 to 15 which from the [Unemployment.csv](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/data/Unemployment.csv) and unemployment rate of 16 from pre-exisiting dataframe.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.20.45%20PM.png)
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.21.24%20PM.png)
+
+The rest of the code generates the two bar plot using seaborn.
+![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.26.02%20PM.png)
