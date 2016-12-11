@@ -119,8 +119,8 @@ The racial distribution code actually is using the same approach.
 
 Input: 	State name for short
 
-Output: One bar plot and one line plot. The bar plot shows the unemployment rate of the input state from 2007 to 2016.
-	The line plot shows the supporting rate of two partys during the last three elections of the input state.
+Output: One bar plot and one line plot. Two csv file. The bar plot shows the unemployment rate of the input state from 2007 to 2016.
+	The line plot shows the supporting rate of two partys during the last three elections of the input state. [Analysis03_result01](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis03/Analysis03_result01), [Analysis04_result02](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis03/Analysis03_result02)
         
 Description: This Analysis is trying to check whether their is a direct relation between the unemployment rate and the supporting rate 			of this two party.
 
@@ -166,11 +166,11 @@ The rest of the code generates the two plot using seaborn and the result csv.
 ![alt tag](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/images/Screen%20Shot%202016-12-10%20at%207.26.02%20PM.png)
 
 
-## [Analysis04](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/Analysis/Analysis03)
+## [Analysis04](https://github.com/songwenxiao/DataAnalysisWithPython/tree/master/final/Analysis/Analysis04)
 
 Input: 	One year number from 2005 to 2014
 
-Output: One bar plot. The output bar plot shows the median household income for all state in US in the certain year. And shows the US 		average household income as a threshold line.
+Output: One bar plot. One csv file. The output bar plot shows the median household income for all state in US in the certain year. And shows the US average household income as a threshold line. csv [Analysis04_result01](https://github.com/songwenxiao/DataAnalysisWithPython/blob/master/final/Analysis/Analysis04/Analysis04_result01)
         
 Description: This Analysis is trying to show you the income condition for all the state in US, and tell you which one is lower than the 		US line and which one is higher.
 
