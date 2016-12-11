@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib as mpl
 from matplotlib import pyplot as plt
 import argparse
+import csv
 #%matplotlib inline
 est14 = pd.read_csv('../../data/est14ALL.csv',error_bad_lines=False,sep=',')
 est13 = pd.read_csv('../../data/est13ALL.csv',error_bad_lines=False,sep=',')
@@ -45,3 +46,4 @@ ax = sns.barplot(x='Postal Code',y='Median Household Income',data=result_final,c
 plt.axhline(y=median,color='#3778bf',ls='dashed')
 plt.title('State Median Household Income in year ' + args.st)
 plt.savefig("Analysis04_img01.png")
+result_final.to_csv('Analysis04_result01', sep='\t', encoding='utf-8')

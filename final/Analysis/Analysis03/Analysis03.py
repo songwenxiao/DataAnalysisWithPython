@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib as mpl
 from matplotlib import pyplot as plt
 import argparse
+import csv
 #%matplotlib inline
 us_election1 = pd.read_csv('../../data/xaa.csv',error_bad_lines=False,sep=';')
 us_election2 = pd.read_csv('../../data/xab.csv',error_bad_lines=False,sep=';')
@@ -53,6 +54,7 @@ ax = sns.pointplot(x="time", y="Unemployment_Rate",
 plt.title(args.st + "'s unemployment rate from 2007-2016")
 plt.savefig("Analysis03_img01.png")
 plt.close()
+result_unemployment.to_csv('Analysis03_result01', sep='\t', encoding='utf-8')
 
 certain_st2 = {'ST':[certain_state.iat[0,0], certain_state.iat[0,0], certain_state.iat[0,0],certain_state.iat[0,0], certain_state.iat[0,0], certain_state.iat[0,0]],
      'time':[2008, 2012, 2016,2008, 2012, 2016],
@@ -66,3 +68,4 @@ ax2 = sns.pointplot(x="time", y="Supporting_Rate",hue='Supporting_party',
                     linestyles=["-", "--"])
 plt.title("Two party's supporting rate in " + args.st + " for the past three elections")
 plt.savefig("Analysis03_img02.png")
+result_support.to_csv('Analysis03_result02', sep='\t', encoding='utf-8')
